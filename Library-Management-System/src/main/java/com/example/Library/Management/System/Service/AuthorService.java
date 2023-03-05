@@ -55,6 +55,7 @@ public class AuthorService {
         authorResponseDTO.setName(author.getName());
         authorResponseDTO.setAge(author.getAge());
         authorResponseDTO.setRating(author.getRating());
+        authorResponseDTO.setCountry(author.getCountry());
 
         return authorResponseDTO;
     }
